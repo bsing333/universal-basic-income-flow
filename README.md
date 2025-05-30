@@ -1,4 +1,4 @@
-Link for Public: universal-basic-income-flow.lovable.app
+Link for Public: https://universal-basic-income-flow.lovable.app/
 
 ———————————————————
 
