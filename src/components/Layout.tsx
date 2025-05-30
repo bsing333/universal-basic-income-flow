@@ -19,7 +19,7 @@ const Layout = ({ children }: LayoutProps) => {
             UBI
           </Link>
           {location.pathname !== "/" && (
-            <nav className="space-x-4 text-sm">
+            <nav className="absolute left-1/2 transform -translate-x-1/2 space-x-4 text-sm">
               <Link to="/eligibility" className={cn("hover:underline", location.pathname.includes("/eligibility") && "font-semibold")}>
                 Check Eligibility
               </Link>
