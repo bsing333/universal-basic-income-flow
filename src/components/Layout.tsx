@@ -16,7 +16,7 @@ const Layout = ({ children }: LayoutProps) => {
         <div className="container flex items-center justify-between">
           <Link to="/" className="flex items-center gap-2 font-semibold text-xl">
             <div className="h-8 w-8 rounded-full bg-white text-primary flex items-center justify-center font-bold">U</div>
-            Universal Basic Income Program
+            UBI
           </Link>
           {location.pathname !== "/" && (
             <nav className="space-x-4 text-sm">
