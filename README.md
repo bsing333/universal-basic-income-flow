@@ -1,3 +1,7 @@
+Link for Public: universal-basic-income-flow.lovable.app
+
+———————————————————
+
 # Welcome to your Lovable project
 
 ## Project info
