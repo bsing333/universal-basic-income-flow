@@ -1,4 +1,3 @@
-
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
 import { cn } from "@/lib/utils";
@@ -31,11 +30,9 @@ const Layout = ({ children }: LayoutProps) => {
               </Link>
             </nav>
           )}
-          {location.pathname !== "/" && (
-            <Link to="/login" className="text-sm font-medium hover:underline">
-              Sign Out
-            </Link>
-          )}
+          <Link to="/login" className="text-sm font-medium hover:underline">
+            {location.pathname === "/" ? "Sign In" : "Sign Out"}
+          </Link>
         </div>
       </header>
       <main className="flex-1">
