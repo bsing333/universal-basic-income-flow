@@ -63,13 +63,13 @@ const Layout = ({ children }: LayoutProps) => {
             <div>
               <h3 className="font-semibold mb-3">Legal</h3>
               <p className="text-sm text-gray-600">
-                This is a prototype demonstration. In a real implementation, this would contain official
+                This is a prototype demonstration by Brian Sing. In a real implementation, this would contain official
                 legal information, terms of service, and compliance details.
               </p>
             </div>
           </div>
           <div className="mt-8 pt-8 border-t text-center text-sm text-gray-500">
-            <p>&copy; 2025 Universal Basic Income Program. Prototype for demonstration purposes by Brian Sing</p>
+            <p>&copy; 2025 Universal Basic Income Program. Prototype for demonstration purposes.</p>
           </div>
         </div>
       </footer>
