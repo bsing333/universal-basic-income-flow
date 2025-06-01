@@ -1,3 +1,4 @@
+
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
 import { cn } from "@/lib/utils";
@@ -31,7 +32,7 @@ const Layout = ({ children }: LayoutProps) => {
             </nav>
           )}
           <Link to="/login" className="text-sm font-medium hover:underline">
-            {location.pathname === "/" ? "Sign In" : "Sign Out"}
+            Sign In
           </Link>
         </div>
       </header>
@@ -68,7 +69,7 @@ const Layout = ({ children }: LayoutProps) => {
             </div>
           </div>
           <div className="mt-8 pt-8 border-t text-center text-sm text-gray-500">
-            <p>&copy; {new Date().getFullYear()} Universal Basic Income Program. Prototype for demonstration purposes.</p>
+            <p>&copy; 2025 Universal Basic Income Program. Prototype for demonstration purposes by Brian Sing</p>
           </div>
         </div>
       </footer>
